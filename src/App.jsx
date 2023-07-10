@@ -1,10 +1,11 @@
-import { Outlet } from "react-router-dom";
+
 import "./App.css";
+import Main from "./Layout/Main";
 
 function App() {
   return (
     <div className="bg-DarkBlue">
-      <Outlet></Outlet>
+      <Main></Main>
     </div>
   );
 }

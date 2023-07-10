@@ -3,10 +3,10 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { GrCheckbox } from "react-icons/gr";
 import { useState } from "react";
 const Header = () => {
-  const [isVisible, setIsvisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   const handleVisible = () => {
-    setIsvisible(!isVisible);
+    setIsVisible(!isVisible);
   };
 
   return (
