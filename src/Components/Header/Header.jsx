@@ -27,11 +27,10 @@ const Header = () => {
           <div className="tooltip tooltip-bottom" data-tip="0 of 22 complete.">
             <div className="flex items-center gap-2">
               <div className="">
-                <img
-                  src="https://randomuser.me/api/portraits/men/10.jpg"
-                  alt=""
-                  className="w-10 rounded-[50%]"
-                />
+                <div
+                  className="radial-progress"
+                  style={{ "--value": "100", "--size": "2rem" }}
+                ></div>
               </div>
               <p>Your Progress</p>
               <FaChevronDown></FaChevronDown>
